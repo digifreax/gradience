@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Gradience - By Digifreax-Studio</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreDefault.min.css" />
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/demo.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<!-- PAGE-NAVBAR -->
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#navbar-top" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar"> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <a href class="navbar-brand">Gradience</a> </div>
+    <div id="navbar-top" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="components.html">Components</a></li>
+        <li class="active"><a href="css.html">CSS</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="installation.html">Installation</a></li>
+        <li><a href="http://getbootstrap.com/components" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin.">Documentation</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Container -->
+<div class="container">
+  <div class="row">
+    <!--left-->
+    <div class="col-md-3" id="leftCol">
+      <div id="sidebar">
+        <ul class="nav nav-pills nav-stacked hidden-sm hidden-xs" id="nav-affix">
+          <li class="active"><a href="#table">Table</a></li>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#blockquotes">Blockquotes</a></li>
+          <li><a href="#form">Form</a></li>
+          <li><a href="#checkboxes">Checkboxes & radios</a></li>
+          <li><a href="#Input">Inputs</a></li>
+          <li><a href="#button">Button Groups</a></li>
+          <li><a href="#social">Social Buttons</a></li>
+          <li><a href="#helper">Helper</a></li>
+
+
+        </ul>
+      </div>
+    </div>
+    <!--/left-->
+    <!--right-->
+    <div class="col-md-9">
+      <div class="jumbotron">
+        <h1>Gradience</h1>
+        <p>Modern skin built with latest bootstrap for all web-design and development projects.</p>
+        <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+      </div>
+
+      <!--Tables-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="table">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Basic Table</code>&nbsp;</h4>
+              <p><small>For basic styling&mdash;light padding and only horizontal dividers&mdash;add the base class <code class="code-success">.table</code> to any <code class="code-danger">&lt;table&gt;</code>. It may seem super redundant, but given the widespread use of tables for other plugins like calendars and date pickers, we've opted to isolate our custom table styles.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Basic Table -->
+              <table class="table">
+                <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+                </tbody>
+              </table>
+                  </div>
+              </div>
+                 <!-- End Basic Table -->
+
+
+                  <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Striped Rows Table</code>&nbsp;</h4>
+                  <p><small>Use <code class="code-success">.table-striped</code> to add zebra-striping to any table row within the <code class="code-danger">&lt;tbody&gt;</code>.</small></p>
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <!-- Striped Rows Table -->
+                    <table class="table table-striped">
+                      <thead>
+                      <a href="#" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new categories</a>
+                      <tr>
+                        <th>ID</th>
+                        <th>Browser</th>
+                        <th>IP address</th>
+                        <th>Server</th>
+                        <th>Status</th>
+                        <th class="text-center">Action</th>
+                      </tr>
+                      </thead>
+                      <tr>
+                        <td>1</td>
+                        <td>Chrome</td>
+                        <td>198.48.2.1</td>
+                        <td>Linux</td>
+                        <td><span class="label label-success">Active</span></td>
+                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Firefox</td>
+                        <td>172.30.1.1</td>
+                        <td>Windows</td>
+                        <td><span class="label label-danger">Banned</span></td>
+                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Mac</td>
+                        <td>181.40.3.1</td>
+                        <td>Linux</td>
+                        <td><span class="label label-warning">Pending</span></td>
+                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                      </tr>
+                    </table>
+                  <!-- End Striped Rows Table -->
+                  </div>
+                </div>
+
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Bordered table</code>&nbsp;</h4>
+              <p><small>Add <code class="code-success">.table-bordered</code> for borders on all sides of the table and cells.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Bordered table -->
+                  <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <!-- End Bordered table -->
+                </div>
+              </div>
+
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Hover rows</code>&nbsp;</h4>
+              <p><small>Add <code class="code-success">.table-hover</code> to enable a hover state on table rows within a <code class="code-danger">&lt;tbody&gt;</code>.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Hover rows -->
+                  <table class="table table-hover">
+                    <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                  <!-- End Hover rows -->
+                  </div>
+                </div>
+
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Condensed table</code>&nbsp;</h4>
+              <p><small>Add <code class="code-success">.table-condensed</code> to make tables more compact by cutting cell padding in half.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Condensed table -->
+                  <table class="table table-condensed">
+                    <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <!-- End Condensed table -->
+                </div>
+              </div>
+
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Contextual classes</code>&nbsp;</h4>
+              <p><small>Use contextual classes to color table rows or individual cells. Brand colors <code class="code-primary">.primary</code>, <code class="code-success">.success</code>,<code class="code-info">.info</code>, <code class="code-warning">.warning</code>, <code class="code-danger">.danger</code></small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Contextual classes -->
+                  <table class="table">
+                    <thead>
+                    <tr class="active">
+                      <th>#</th>
+                      <th>Column heading</th>
+                      <th>Column heading</th>
+                      <th>Column heading</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <th>1</th>
+                      <td>Default Column</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr class="primary">
+                      <th>3</th>
+                      <td>Primary Column</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr class="success">
+                      <th>4</th>
+                      <td>Success Column</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr class="info">
+                      <th>5</th>
+                      <td>Info Column</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr class="warning">
+                      <th>6</th>
+                      <td>Warning Column</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr class="danger">
+                      <th>7</th>
+                      <td>Danger Column</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <!-- End Contextual classes -->
+                </div>
+              </div>
+
+
+
+              </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#table-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="table-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: js, highlight: [4,38,79,113,147,180], html-script: true, title: 'Source Code'">
+  ///////////////////////////////////////////////////////////////
+  // Basic Table
+  ///////////////////////////////////////////////////////////////
+                    &lt;table class="table"&gt;
+                      &lt;thead&gt;
+                      &lt;tr&gt;
+                        &lt;th&gt;#&lt;/th&gt;
+                        &lt;th&gt;First Name&lt;/th&gt;
+                        &lt;th&gt;Last Name&lt;/th&gt;
+                        &lt;th&gt;Username&lt;/th&gt;
+                      &lt;/tr&gt;
+                      &lt;/thead&gt;
+                      &lt;tbody&gt;
+                      &lt;tr&gt;
+                        &lt;th scope="row"&gt;1&lt;/th&gt;
+                        &lt;td&gt;Mark&lt;/td&gt;
+                        &lt;td&gt;Otto&lt;/td&gt;
+                        &lt;td&gt;@mdo&lt;/td&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;th scope="row"&gt;2&lt;/th&gt;
+                        &lt;td&gt;Jacob&lt;/td&gt;
+                        &lt;td&gt;Thornton&lt;/td&gt;
+                        &lt;td&gt;@fat&lt;/td&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;th scope="row"&gt;3&lt;/th&gt;
+                        &lt;td&gt;Larry&lt;/td&gt;
+                        &lt;td&gt;the Bird&lt;/td&gt;
+                        &lt;td&gt;@twitter&lt;/td&gt;
+                      &lt;/tr&gt;
+                      &lt;/tbody&gt;
+                    &lt;/table&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Striped Rows Table
+  ///////////////////////////////////////////////////////////////
+                  &lt;table class="table table-striped"&gt;
+                      &lt;thead&gt;
+                      &lt;a href="#" class="btn btn-primary btn-xs pull-right"&gt;&lt;b&gt;+&lt;/b&gt; Add new categories&lt;/a&gt;
+                      &lt;tr&gt;
+                        &lt;th&gt;ID&lt;/th&gt;
+                        &lt;th&gt;Browser&lt;/th&gt;
+                        &lt;th&gt;IP address&lt;/th&gt;
+                        &lt;th&gt;Server&lt;/th&gt;
+                        &lt;th&gt;Status&lt;/th&gt;
+                        &lt;th class="text-center"&gt;Action&lt;/th&gt;
+                      &lt;/tr&gt;
+                      &lt;/thead&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;1&lt;/td&gt;
+                        &lt;td&gt;Chrome&lt;/td&gt;
+                        &lt;td&gt;198.48.2.1&lt;/td&gt;
+                        &lt;td&gt;Linux&lt;/td&gt;
+                        &lt;td&gt;&lt;span class="label label-success"&gt;Active&lt;/span&gt;&lt;/td&gt;
+                        &lt;td class="text-center"&gt;&lt;a class='btn btn-info btn-xs' href="#"&gt;&lt;span class="glyphicon glyphicon-edit"&gt;&lt;/span&gt; Edit&lt;/a&gt; &lt;a href="#" class="btn btn-danger btn-xs"&gt;&lt;span class="glyphicon glyphicon-remove"&gt;&lt;/span&gt; Del&lt;/a&gt;&lt;/td&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;2&lt;/td&gt;
+                        &lt;td&gt;Firefox&lt;/td&gt;
+                        &lt;td&gt;172.30.1.1&lt;/td&gt;
+                        &lt;td&gt;Windows&lt;/td&gt;
+                        &lt;td&gt;&lt;span class="label label-danger"&gt;Banned&lt;/span&gt;&lt;/td&gt;
+                        &lt;td class="text-center"&gt;&lt;a class='btn btn-info btn-xs' href="#"&gt;&lt;span class="glyphicon glyphicon-edit"&gt;&lt;/span&gt; Edit&lt;/a&gt; &lt;a href="#" class="btn btn-danger btn-xs"&gt;&lt;span class="glyphicon glyphicon-remove"&gt;&lt;/span&gt; Del&lt;/a&gt;&lt;/td&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;3&lt;/td&gt;
+                        &lt;td&gt;Mac&lt;/td&gt;
+                        &lt;td&gt;181.40.3.1&lt;/td&gt;
+                        &lt;td&gt;Linux&lt;/td&gt;
+                        &lt;td&gt;&lt;span class="label label-warning"&gt;Pending&lt;/span&gt;&lt;/td&gt;
+                        &lt;td class="text-center"&gt;&lt;a class='btn btn-info btn-xs' href="#"&gt;&lt;span class="glyphicon glyphicon-edit"&gt;&lt;/span&gt; Edit&lt;/a&gt; &lt;a href="#" class="btn btn-danger btn-xs"&gt;&lt;span class="glyphicon glyphicon-remove"&gt;&lt;/span&gt; Del&lt;/a&gt;&lt;/td&gt;
+                      &lt;/tr&gt;
+                    &lt;/table&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Bordered Table
+  ///////////////////////////////////////////////////////////////
+                    &lt;table class="table table-bordered"&gt;
+                        &lt;thead&gt;
+                          &lt;tr&gt;
+                            &lt;th&gt;#&lt;/th&gt;
+                            &lt;th&gt;First Name&lt;/th&gt;
+                            &lt;th&gt;Last Name&lt;/th&gt;
+                            &lt;th&gt;Username&lt;/th&gt;
+                          &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;1&lt;/th&gt;
+                            &lt;td&gt;Mark&lt;/td&gt;
+                            &lt;td&gt;Otto&lt;/td&gt;
+                            &lt;td&gt;@mdo&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;2&lt;/th&gt;
+                            &lt;td&gt;Jacob&lt;/td&gt;
+                            &lt;td&gt;Thornton&lt;/td&gt;
+                            &lt;td&gt;@fat&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;3&lt;/th&gt;
+                            &lt;td&gt;Larry&lt;/td&gt;
+                            &lt;td&gt;the Bird&lt;/td&gt;
+                            &lt;td&gt;@twitter&lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Hover Rows
+  ///////////////////////////////////////////////////////////////
+                    &lt;table class="table table-hover"&gt;
+                        &lt;thead&gt;
+                          &lt;tr&gt;
+                            &lt;th&gt;#&lt;/th&gt;
+                            &lt;th&gt;First Name&lt;/th&gt;
+                            &lt;th&gt;Last Name&lt;/th&gt;
+                            &lt;th&gt;Username&lt;/th&gt;
+                          &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;1&lt;/th&gt;
+                            &lt;td&gt;Mark&lt;/td&gt;
+                            &lt;td&gt;Otto&lt;/td&gt;
+                            &lt;td&gt;@mdo&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;2&lt;/th&gt;
+                            &lt;td&gt;Jacob&lt;/td&gt;
+                            &lt;td&gt;Thornton&lt;/td&gt;
+                            &lt;td&gt;@fat&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;3&lt;/th&gt;
+                            &lt;td&gt;Larry&lt;/td&gt;
+                            &lt;td&gt;the Bird&lt;/td&gt;
+                            &lt;td&gt;@twitter&lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Condensed Table
+  ///////////////////////////////////////////////////////////////
+                    &lt;table class="table table-condensed"&gt;
+                        &lt;thead&gt;
+                          &lt;tr&gt;
+                            &lt;th&gt;#&lt;/th&gt;
+                            &lt;th&gt;First Name&lt;/th&gt;
+                            &lt;th&gt;Last Name&lt;/th&gt;
+                            &lt;th&gt;Username&lt;/th&gt;
+                          &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;1&lt;/th&gt;
+                            &lt;td&gt;Mark&lt;/td&gt;
+                            &lt;td&gt;Otto&lt;/td&gt;
+                            &lt;td&gt;@mdo&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;2&lt;/th&gt;
+                            &lt;td&gt;Jacob&lt;/td&gt;
+                            &lt;td&gt;Thornton&lt;/td&gt;
+                            &lt;td&gt;@fat&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;th scope="row"&gt;3&lt;/th&gt;
+                            &lt;td colspan="2"&gt;Larry the Bird&lt;/td&gt;
+                            &lt;td&gt;@twitter&lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+
+.
+  ///////////////////////////////////////////////////////////////
+  // Contextual classes
+  ///////////////////////////////////////////////////////////////
+                    &lt;table class="table"&gt;
+                        &lt;thead&gt;
+                          &lt;tr class="active"&gt;
+                            &lt;th&gt;#&lt;/th&gt;
+                            &lt;th&gt;Column heading&lt;/th&gt;
+                            &lt;th&gt;Column heading&lt;/th&gt;
+                            &lt;th&gt;Column heading&lt;/th&gt;
+                          &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;th&gt;1&lt;/th&gt;
+                            &lt;td&gt;Default Column&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr class="primary"&gt;
+                            &lt;th&gt;3&lt;/th&gt;
+                            &lt;td&gt;Primary Column&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr class="success"&gt;
+                            &lt;th&gt;4&lt;/th&gt;
+                            &lt;td&gt;Success Column&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr class="info"&gt;
+                            &lt;th&gt;5&lt;/th&gt;
+                            &lt;td&gt;Info Column&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr class="warning"&gt;
+                            &lt;th&gt;6&lt;/th&gt;
+                            &lt;td&gt;Warning Column&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr class="danger"&gt;
+                            &lt;th&gt;7&lt;/th&gt;
+                            &lt;td&gt;Danger Column&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                            &lt;td&gt;Column content&lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Tables -->
+
+      <!-- Typography -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="typography">Example</h3>
+              <h3><code class="code-info" data-toggle="tooltip" title="Bootstrap">Typography</code>&nbsp;</h3>
+              <h4><code class="code-info">Headings</code>&nbsp;</h4>
+              <p><small>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Headings -->
+                  <h1>h1. Heading 1 <small>Secondary text</small></h1>
+                  <h2>h2. Heading 2 <small>Secondary text</small></h2>
+                  <h3>h3. Heading 3 <small>Secondary text</small></h3>
+                  <h4>h4. Heading 4 <small>Secondary text</small></h4>
+                  <h5>h5. Heading 5 <small>Secondary text</small></h5>
+                  <h6>h6. Heading 6 <small>Secondary text</small></h6>
+                  <!-- End Headings -->
+                </div>
+              </div>
+
+              <h4><code class="code-info">Body Copy</code>&nbsp;</h4>
+              <p><small><strong>Gradience</strong> using default font-size same as Bootstrap <code>font-size</code> is <strong>14px</strong>, with a <code>line-height</code> of <strong>1.428</strong>. This is applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a bottom margin of half their computed line-height (10px by default).</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Body copy -->
+
+                  <!-- End Body copy -->
+                </div>
+              </div>
+
+
+              <h4><code class="code-info">Lead Body Copy</code>&nbsp;</h4>
+              <p><small>Make a paragraph stand out by adding <code>.lead</code>.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Lead Body copy -->
+                  <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                  <!-- End Lead Body copy -->
+                </div>
+              </div>
+
+
+              <h4><code class="code-info">Alignment classes</code>&nbsp;</h4>
+              <p><small>Easily realign text to components with text alignment classes.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Alignment classes -->
+                  <p class="text-left"><b>Left aligned bold text.</b></p>
+                  <p class="text-center"><i>Center aligned Italic text.</i></p>
+                  <p class="text-right"><small>Right aligned small text.</small></p>
+                  <p class="text-justify">Justified text.</p>
+                  <p class="text-nowrap">No wrap text.</p>
+                  <!-- End Alignment classes -->
+                </div>
+              </div>
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#typography-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="typography-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: xml, title: 'Source Code'">
+  ///////////////////////////////////////////////////////////////
+  // Headings
+  ///////////////////////////////////////////////////////////////
+                  &lt;h1&gt;h1. Heading 1 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h1&gt;
+                  &lt;h2&gt;h2. Heading 2 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h2&gt;
+                  &lt;h3&gt;h3. Heading 3 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h3&gt;
+                  &lt;h4&gt;h4. Heading 4 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h4&gt;
+                  &lt;h5&gt;h5. Heading 5 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h5&gt;
+                  &lt;h6&gt;h6. Heading 6 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h6&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Lead Body Copy
+  ///////////////////////////////////////////////////////////////
+                  &lt;p class="lead"&gt;...&lt;/p&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Alignment classes
+  ///////////////////////////////////////////////////////////////
+                  &lt;p class="text-left"&gt;&lt;b&gt;Left aligned bold text.&lt;/b&gt;&lt;/p&gt;
+                  &lt;p class="text-center"&gt;&lt;i&gt;Center aligned Italic text.&lt;/i&gt;&lt;/p&gt;
+                  &lt;p class="text-right"&gt;&lt;small&gt;Right aligned small text.&lt;/small&gt;&lt;/p&gt;
+                  &lt;p class="text-justify"&gt;Justified text.&lt;/p&gt;
+                  &lt;p class="text-nowrap"&gt;No wrap text.&lt;/p&gt;
+
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Typography -->
+
+      <!-- Code -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="code">Example</h3>
+              <h4><code class="code-info">Codes</code>&nbsp;</h4>
+              <p><small>Wrap inline snippets of code with <kbd>brand color</kbd> <code>&lt;code&gt;</code></small></p>
+              <div class="row">
+                <div class="col-md-12">
+                  <!-- Code -->
+                  <p><code class="code-primary"><b>.code-primary</b></code></p>
+                  <p><code class="code-success"><b>.code-success</b></code></p>
+                  <p><code class="code-info"><b>.code-info</b></code></p>
+                  <p><code class="code-warning"><b>.code-warning</b></code></p>
+                  <p><code class="code-danger"><b>.code-danger</b></code></p>
+                  <!-- End code -->
+                </div>
+              </div>
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#code-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="code-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: xml, title: 'Source Code">
+  ///////////////////////////////////////////////////////////////
+  // Code
+  ///////////////////////////////////////////////////////////////
+                  For example, &lt;code class="code-primary"&gt;.code-primary&lt;/code&gt;
+                  For example, &lt;code class="code-success"&gt;.code-success&lt;/code&gt;
+                  For example, &lt;code class="code-info"&gt;.code-info&lt;/code&gt;
+                  For example, &lt;code class="code-warning"&gt;.code-warning&lt;/code&gt;
+                  For example, &lt;code class="code-danger"&gt;.code-danger&lt;/code&gt;
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Code -->
+
+      <!-- Blockquotes -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="blockquotes">Example</h3>
+              <h4><code class="code-info">Blockquotes</code>&nbsp;</h4>
+              <p><small>For quoting blocks of content from another source within your document</small></p>
+              <div class="row">
+                <div class="col-md-12">
+                  <!-- Default Blockquotes -->
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </blockquote>
+                  <!-- End Default Blockquotes -->
+                </div>
+              </div>
+
+              <h4><code class="code-info">Naming a source</code>&nbsp;</h4>
+              <p><small>Add a <code>&lt;footer&gt;</code> for identifying the source. Wrap the name of the source work in <code>&lt;cite&gt;</code></small></p>
+              <div class="row">
+                <div class="col-md-12">
+                  <!-- Naming a source -->
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <!-- End Naming a source -->
+                </div>
+              </div>
+
+              <h4><code class="code-info"> Alternate displays</code>&nbsp;</h4>
+              <p><small>Add <code>.blockquote-reverse</code> for a blockquote with right-aligned content.</small></p>
+              <div class="row">
+                <div class="col-md-12">
+                  <!--  Alternate displays-->
+                  <blockquote class="blockquote-reverse">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <!-- End  Alternate displays -->
+                </div>
+              </div>
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#blockquotes-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="blockquotes-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: js, highlight: [4,13,19], html-script: true, title: 'Source Code'">
+  ///////////////////////////////////////////////////////////////
+  // Default Blockquotes
+  ///////////////////////////////////////////////////////////////
+                  &lt;blockquote&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+                  &lt;/blockquote&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Naming a Source
+  ///////////////////////////////////////////////////////////////
+                  &lt;blockquote&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+                    &lt;footer&gt;Someone famous in &lt;cite title="Source Title"&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
+                  &lt;/blockquote&gt;
+  .
+  ///////////////////////////////////////////////////////////////
+  // Alternate displays
+  ///////////////////////////////////////////////////////////////
+                  &lt;blockquote class="blockquote-reverse"&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+                    &lt;footer&gt;Someone famous in &lt;cite title="Source Title"&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
+                  &lt;/blockquote&gt;
+
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Blockquotes -->
+
+      <!-- Form-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="form">Example</h3>
+              <h4><code class="code-info">Form</code>&nbsp;</h4>
+              <p><small>Individual form controls automatically receive some global styling. All textual <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, and <code>&lt;select&gt;</code> elements with <code>.form-control</code> are set to <code>width: 100%;</code> by default. Wrap labels and controls in <code>.form-group</code> for optimum spacing.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3" style="border: 1px solid #eee; padding: 22px; background-color: #eee;">
+                  <!-- Basic Form -->
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputFile">File input</label>
+                      <input type="file" id="exampleInputFile">
+                      <p class="help-block">Example block-level help text here.</p>
+                    </div>
+                    <div class="checkbox">
+                      <input id="checkbox-def" type="checkbox" checked="">
+                      <label for="checkbox-def"> check me out </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                  <!-- End Basic Form -->
+                </div>
+              </div>
+
+
+              <h4><code class="code-info">Horizontal Form</code>&nbsp;</h4>
+              <p><small>Use Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout by adding <code>.form-horizontal</code> to the form (which doesn't have to be a <code>&lt;form&gt;</code>). Doing so changes <code>.form-group</code>s to behave as grid rows, so no need for <code>.row</code>.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <!-- Horizontal Form -->
+                  <div class="panel panel-primary" >
+                    <div class="panel-heading">
+                      <div class="panel-title">Sign In</div>
+                    </div>
+                    <div class="panel-body" style="padding-top:30px">
+                      <form class="form-horizontal">
+                        <div class="input-group" style="margin-bottom: 22px">
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                          <input type="text" class="form-control" name="username" value="" placeholder="username or email">
+                        </div>
+                        <div class="input-group"  style="margin-bottom: 22px">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input type="password" class="form-control" name="password" placeholder="password">
+                        </div>
+                        <div class="input-group">
+                          <div class="checkbox checkbox-primary">
+                            <input id="checkbox-hor" type="checkbox" checked="">
+                            <label for="checkbox-hor"> Remember Me </label>
+                          </div>
+                        </div>
+                        <div class="form-group" style="margin-top:8px">
+                          <div class="col-md-12 controls">
+                            <button class="btn btn-success">Login</button>
+                            <button class="btn btn-primary">Login With Facebook</button>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-12 control">
+                              Don't have an account!
+                              <a href>Sign Up Here</a>
+                            </div>
+                          </div>
+                      </form>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- End Horizontal Form -->
+                </div>
+
+
+            <h4><code class="code-info">Inline Form</code>&nbsp;</h4>
+            <p><small>Add <code>.form-inline</code> to your form (which doesn't have to be a <code>&lt;form&gt;</code>) for left-aligned and inline-block controls. <strong>This only applies to forms within viewports that are at least 768px wide.</strong></small></p>
+            <div class="row">
+              <div class="col-md-12 col-md-offset-2">
+                <!-- Inline Form -->
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail2">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                  </div>
+                  <button class="btn btn-default">Send invitation</button>
+                </form>
+              <!-- End Inline Form -->
+            </div>
+          </div>
+
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#form-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="form-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: js, highlight: [4,33,67], html-script: true, title: 'Source Code'">
+///////////////////////////////////////////////////////////////
+// Basic Form
+///////////////////////////////////////////////////////////////
+     &lt;form&gt;
+     &lt;div class="form-group"&gt;
+       &lt;label for="exampleInputEmail1"&gt;Email address&lt;/label&gt;
+       &lt;input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"&gt;
+     &lt;/div&gt;
+     &lt;div class="form-group"&gt;
+       &lt;label for="exampleInputPassword1"&gt;Password&lt;/label&gt;
+       &lt;input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"&gt;
+     &lt;/div&gt;
+     &lt;div class="form-group"&gt;
+       &lt;label for="exampleInputFile"&gt;File input&lt;/label&gt;
+       &lt;input type="file" id="exampleInputFile"&gt;
+       &lt;p class="help-block"&gt;Example block-level help text here.&lt;/p&gt;
+     &lt;/div&gt;
+     &lt;div class="checkbox"&gt;
+       &lt;input id="checkbox-def" type="checkbox" checked=""&gt;
+       &lt;label for="checkbox-def"&gt; check me out&lt;/label&gt;
+     &lt;/div&gt;
+     &lt;button type="submit" class="btn btn-default"&gt;Submit&lt;/button&gt;
+   &lt;/form&gt;
+.
+///////////////////////////////////////////////////////////////
+// Horizontal Form
+///////////////////////////////////////////////////////////////
+   &lt;div class="panel panel-primary" &gt;
+     &lt;div class="panel-heading"&gt;
+       &lt;div class="panel-title"&gt;Sign In&lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div class="panel-body" style="padding-top:30px"&gt;
+       &lt;form class="form-horizontal"&gt;
+         &lt;div class="input-group" style="margin-bottom: 22px"&gt;
+           &lt;span class="input-group-addon"&gt;&lt;i class="fa fa-user"&gt;&lt;/i&gt;&lt;/span&gt;
+           &lt;input type="text" class="form-control" name="username" value="" placeholder="username or email"&gt;
+         &lt;/div&gt;
+         &lt;div class="input-group"  style="margin-bottom: 22px"&gt;
+           &lt;span class="input-group-addon"&gt;&lt;i class="fa fa-lock"&gt;&lt;/i&gt;&lt;/span&gt;
+           &lt;input type="password" class="form-control" name="password" placeholder="password"&gt;
+         &lt;/div&gt;
+         &lt;div class="input-group"&gt;
+           &lt;div class="checkbox checkbox-primary"&gt;
+             &lt;input id="checkbox-hor" type="checkbox" checked=""&gt;
+             &lt;label for="checkbox-hor"&gt; Remember Me&lt;/label&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;div class="form-group" style="margin-top:8px"&gt;
+           &lt;div class="col-md-12 controls"&gt;
+             &lt;button class="btn btn-success"&gt;Login&lt;/button&gt;
+             &lt;button class="btn btn-primary"&gt;Login With Facebook&lt;/button&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;div class="form-group"&gt;
+           &lt;div class="col-md-12 control"&gt;
+                Don't have an account!
+               &lt;a href&gt;Sign Up Here&lt;/a&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+       &lt;/form&gt;
+         &lt;/div&gt;
+     &lt;/div&gt;
+.
+///////////////////////////////////////////////////////////////
+// Inline Form
+///////////////////////////////////////////////////////////////
+     &lt;form class="form-inline"&gt;
+       &lt;div class="form-group"&gt;
+         &lt;label for="exampleInputName2"&gt;Name&lt;/label&gt;
+         &lt;input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe"&gt;
+       &lt;/div&gt;
+       &lt;div class="form-group"&gt;
+         &lt;label for="exampleInputEmail2"&gt;Email&lt;/label&gt;
+         &lt;input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com"&gt;
+       &lt;/div&gt;
+       &lt;button class="btn btn-default"&gt;Send invitation&lt;/button&gt;
+     &lt;/form&gt;
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <!-- End Form -->
+
+      <!-- Checkboxes & radios -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="checkboxes">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Checkboxes & radios</code>&nbsp;</h4>
+              <p><small>Bootstrap custom checkboxes brand colors:<code class="code-default">.checkbox</code>,
+                <code class="code-primary">.checkbox-primary</code>, <code class="code-info">.checkbox-info</code>,
+                <code class="code-danger">.checkbox-danger</code>, <code class="code-warning">.checkbox-warning</code>, <code class="code-success">.checkbox-success</code></small> </small>
+              </p>
+              <form role="form">
+                <div class="row">
+                  <div class="col-md-4">
+                    <fieldset>
+                      <h4 class="text-danger">Basic</h4>
+                      <div class="checkbox">
+                        <input id="checkbox1" class="styled" type="checkbox" checked>
+                        <label for="checkbox1"> Default </label>
+                      </div>
+                      <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked>
+                        <label for="checkbox2"> Primary </label>
+                      </div>
+                      <div class="checkbox checkbox-success">
+                        <input id="checkbox3" class="styled" type="checkbox" checked>
+                        <label for="checkbox3"> Success </label>
+                      </div>
+                      <div class="checkbox checkbox-info">
+                        <input id="checkbox4" class="styled" type="checkbox" checked>
+                        <label for="checkbox4"> Info </label>
+                      </div>
+                      <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" class="styled" checked>
+                        <label for="checkbox5"> Warning </label>
+                      </div>
+                      <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" class="styled" checked>
+                        <label for="checkbox6"> Check me out </label>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-4">
+                    <fieldset>
+                      <h4 class="text-danger">Circle checkbox</h4>
+                      <p> <small><code class="code-primary">.checkbox-circle</code> for roundness.</small> </p>
+                      <div class="checkbox checkbox-circle">
+                        <input id="checkbox7" class="styled" type="checkbox" checked>
+                        <label for="checkbox7"> Default </label>
+                      </div>
+                      <div class="checkbox checkbox-primary checkbox-circle">
+                        <input id="checkbox8" class="styled" type="checkbox" checked>
+                        <label for="checkbox8"> Primary </label>
+                      </div>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <input id="checkbox9" class="styled" type="checkbox" checked>
+                        <label for="checkbox9"> Info </label>
+                      </div>
+                      <div class="checkbox checkbox-success checkbox-circle">
+                        <input id="checkbox10" class="styled" type="checkbox" checked>
+                        <label for="checkbox10"> Success </label>
+                      </div>
+                      <div class="checkbox checkbox-warning checkbox-circle">
+                        <input id="checkbox11" class="styled" type="checkbox" checked>
+                        <label for="checkbox11"> Warning </label>
+                      </div>
+                      <div class="checkbox checkbox-danger checkbox-circle">
+                        <input id="checkbox12" class="styled" type="checkbox" checked>
+                        <label for="checkbox12"> Danger </label>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-4">
+                    <fieldset>
+                      <h4 class="text-danger">Disabled</h4>
+                      <p> <small><code class="info">Disabled</code> state also supported</small> </p>
+                      <div class="checkbox">
+                        <input class="styled" id="checkbox13" type="checkbox" disabled>
+                        <label for="checkbox13"> Can't check this </label>
+                      </div>
+                      <div class="checkbox checkbox-primary checkbox-circle">
+                        <input class="styled" id="checkbox15" type="checkbox" disabled checked>
+                        <label for="checkbox15"> Primary </label>
+                      </div>
+                      <div class="checkbox checkbox-success checkbox-circle">
+                        <input class="styled" id="checkbox16" type="checkbox" disabled checked>
+                        <label for="checkbox16"> Success </label>
+                      </div>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <input class="styled" id="checkbox17" type="checkbox" disabled checked>
+                        <label for="checkbox17"> Info </label>
+                      </div>
+                      <div class="checkbox checkbox-warning checkbox-circle">
+                        <input class="styled" id="checkbox18" type="checkbox" disabled checked>
+                        <label for="checkbox18"> Warning </label>
+                      </div>
+                      <div class="checkbox checkbox-Danger checkbox-circle">
+                        <input class="styled" id="checkbox19" type="checkbox" disabled checked>
+                        <label for="checkbox19"> Danger </label>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Radio</code>&nbsp;</h4>
+              <p><small>Bootstrap custom radio brand colors:<code class="code-default">.radio</code>,
+                <code class="code-primary">.radio-primary</code>, <code class="code-info">.radio-info</code>,
+                <code class="code-danger">.radio-danger</code>, <code class="code-warning">.radio-warning</code>, <code class="code-success">.checkbox-success</code></small> </small>
+              </p>
+              <form role="form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <fieldset>
+                      <h4 class="text-danger">Basic</h4>
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <div class="radio">
+                            <input type="radio" name="radio1" id="radio1" value="option1" checked>
+                            <label for="radio1"> Default </label>
+                          </div>
+                          <div class="radio radio-primary">
+                            <input type="radio" name="radio1" id="radio2" value="option2" checked>
+                            <label for="radio2"> Primary </label>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="radio radio-success">
+                            <input type="radio" name="radio2" id="radio3" value="option1" checked>
+                            <label for="radio3"> Success </label>
+                          </div>
+                          <div class="radio radio-info">
+                            <input type="radio" name="radio2" id="radio4" value="option2" checked>
+                            <label for="radio4"> Info </label>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="radio radio-warning">
+                            <input type="radio" name="radio2" id="radio5" value="option1" checked>
+                            <label for="radio5"> Warning </label>
+                          </div>
+                          <div class="radio radio-danger">
+                            <input type="radio" name="radio2" id="radio6" value="option2" checked>
+                            <label for="radio6"> Danger </label>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6">
+                    <fieldset>
+                      <h4 class="text-danger">Disabled</h4>
+                      <p><small><code class="code-info">Disabled</code> state also supported.</small></p>
+                      <div class="radio radio-danger">
+                        <input type="radio" name="radio3" id="radio7" value="option1" disabled>
+                        <label for="radio7"> Disabled </label>
+                      </div>
+                      <div class="radio radio-info">
+                        <input type="radio" name="radio3" id="radio8" value="option2" checked disabled>
+                        <label for="radio8"> Info </label>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#checkbox-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="checkbox-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: js, highlight: [4,8,12,16,20,24,32,36,40,44,48,52,60,64,68,72,76,80,88,92,96,100,104,108,116,120], html-script: true, title: 'Source Code'">
+///////////////////////////////////////////////////////////////
+// Basic Checkbox
+///////////////////////////////////////////////////////////////
+     &lt;div class="checkbox"&gt;
+        &lt;input id="checkbox1" class="styled" type="checkbox" checked&gt;
+        &lt;label for="checkbox1"&gt; Default &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-primary"&gt;
+        &lt;input id="checkbox2" class="styled" type="checkbox" checked&gt;
+        &lt;label for="checkbox2"&gt; Primary &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-success"&gt;
+        &lt;input id="checkbox3" class="styled" type="checkbox" checked&gt;
+        &lt;label for="checkbox3"&gt; Success &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-info"&gt;
+        &lt;input id="checkbox4" class="styled" type="checkbox" checked&gt;
+        &lt;label for="checkbox4"&gt; Info &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-warning"&gt;
+        &lt;input id="checkbox5" type="checkbox" class="styled" checked&gt;
+        &lt;label for="checkbox5"&gt; Warning &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-danger"&gt;
+        &lt;input id="checkbox6" type="checkbox" class="styled" checked&gt;
+        &lt;label for="checkbox6"&gt; Check me out &lt;/label&gt;
+      &lt;/div&gt;
+.
+///////////////////////////////////////////////////////////////
+// Circle Checkbox
+///////////////////////////////////////////////////////////////
+  &lt;div class="checkbox checkbox-circle"&gt;
+      &lt;input id="checkbox7" class="styled" type="checkbox" checked&gt;
+      &lt;label for="checkbox7"&gt; Default &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="checkbox checkbox-primary checkbox-circle"&gt;
+      &lt;input id="checkbox8" class="styled" type="checkbox" checked&gt;
+      &lt;label for="checkbox8"&gt; Primary &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="checkbox checkbox-info checkbox-circle"&gt;
+      &lt;input id="checkbox9" class="styled" type="checkbox" checked&gt;
+      &lt;label for="checkbox9"&gt; Info &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="checkbox checkbox-success checkbox-circle"&gt;
+      &lt;input id="checkbox10" class="styled" type="checkbox" checked&gt;
+      &lt;label for="checkbox10"&gt; Success &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="checkbox checkbox-warning checkbox-circle"&gt;
+      &lt;input id="checkbox11" class="styled" type="checkbox" checked&gt;
+      &lt;label for="checkbox11"&gt; Warning &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="checkbox checkbox-danger checkbox-circle"&gt;
+      &lt;input id="checkbox12" class="styled" type="checkbox" checked&gt;
+      &lt;label for="checkbox12"&gt; Danger &lt;/label&gt;
+    &lt;/div&gt;
+.
+///////////////////////////////////////////////////////////////
+// Disabled Checkbox
+///////////////////////////////////////////////////////////////
+    &lt;div class="checkbox"&gt;
+        &lt;input class="styled" id="checkbox13" type="checkbox" disabled&gt;
+        &lt;label for="checkbox13"&gt; Can't check this &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-primary checkbox-circle"&gt;
+        &lt;input class="styled" id="checkbox15" type="checkbox" disabled checked&gt;
+        &lt;label for="checkbox15"&gt; Primary &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-success checkbox-circle"&gt;
+        &lt;input class="styled" id="checkbox16" type="checkbox" disabled checked&gt;
+        &lt;label for="checkbox16"&gt; Success &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-info checkbox-circle"&gt;
+        &lt;input class="styled" id="checkbox17" type="checkbox" disabled checked&gt;
+        &lt;label for="checkbox17"&gt; Info &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-warning checkbox-circle"&gt;
+        &lt;input class="styled" id="checkbox18" type="checkbox" disabled checked&gt;
+        &lt;label for="checkbox18"&gt; Warning &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox checkbox-Danger checkbox-circle"&gt;
+        &lt;input class="styled" id="checkbox19" type="checkbox" disabled checked&gt;
+        &lt;label for="checkbox19"&gt; Danger &lt;/label&gt;
+      &lt;/div&gt;
+
+
+.
+///////////////////////////////////////////////////////////////
+// Radio
+///////////////////////////////////////////////////////////////
+ &lt;div class="radio"&gt;
+    &lt;input type="radio" name="radio1" id="radio1" value="option1" checked&gt;
+    &lt;label for="radio1"&gt; Default &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class="radio radio-primary"&gt;
+    &lt;input type="radio" name="radio1" id="radio2" value="option2" checked&gt;
+    &lt;label for="radio2"&gt; Primary &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class="radio radio-success"&gt;
+    &lt;input type="radio" name="radio2" id="radio3" value="option1" checked&gt;
+    &lt;label for="radio3"&gt; Success &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class="radio radio-info"&gt;
+    &lt;input type="radio" name="radio2" id="radio4" value="option2" checked&gt;
+    &lt;label for="radio4"&gt; Info &lt;/label&gt;
+  &lt;/div&gt;
+   &lt;div class="radio radio-warning"&gt;
+      &lt;input type="radio" name="radio2" id="radio5" value="option1" checked&gt;
+      &lt;label for="radio5"&gt; Warning &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="radio radio-danger"&gt;
+      &lt;input type="radio" name="radio2" id="radio6" value="option2" checked&gt;
+      &lt;label for="radio6"&gt; Danger &lt;/label&gt;
+    &lt;/div&gt;
+.
+///////////////////////////////////////////////////////////////
+// Disabled Radio
+///////////////////////////////////////////////////////////////
+  &lt;div class="radio radio-danger"&gt;
+    &lt;input type="radio" name="radio3" id="radio7" value="option1" disabled&gt;
+    &lt;label for="radio7"&gt; Disabled &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class="radio radio-info"&gt;
+    &lt;input type="radio" name="radio3" id="radio8" value="option2" checked disabled&gt;
+    &lt;label for="radio8"&gt; Info &lt;/label&gt;
+  &lt;/div&gt;
+
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Checkboxes & radios -->
+      <!--Inputs-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="Input">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Forms-Inputs</code>&nbsp;</h4>
+              <div class="form-group">
+                <label class="control-label" for="focusedInput">Focused input</label>
+                <input class="form-control" id="focusedInput" type="text" value="This is focused..."> </div>
+              <div class="form-group">
+                <label class="control-label" for="disabledInput">Disabled input</label>
+                <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled=""> </div>
+              <div class="form-group has-warning">
+                <label class="control-label" for="inputWarning">Input warning</label>
+                <input type="text" class="form-control" id="inputWarning"> </div>
+              <div class="form-group has-error">
+                <label class="control-label" for="inputError">Input error</label>
+                <input type="text" class="form-control" id="inputError"> </div>
+              <div class="form-group has-success">
+                <label class="control-label" for="inputSuccess">Input success</label>
+                <input type="text" class="form-control" id="inputSuccess"> </div>
+              <div class="form-group">
+                <label class="control-label" for="inputLarge">Large input</label>
+                <input class="form-control input-lg" type="text" id="inputLarge"> </div>
+              <div class="form-group">
+                <label class="control-label" for="inputDefault">Default input</label>
+                <input type="text" class="form-control" id="inputDefault"> </div>
+              <div class="form-group">
+                <label class="control-label" for="inputSmall">Small input</label>
+                <input class="form-control input-sm" type="text" id="inputSmall"> </div>
+              <div class="form-group">
+                <label class="control-label">Input addons</label>
+                <div class="input-group"> <span class="input-group-addon">$</span>
+                  <input type="text" class="form-control"> <span class="input-group-btn">
+      <button class="btn btn-default" type="button">Button</button>
+    </span> </div>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">Colorful Input Addons</label>
+                <div class="input-group">
+                  <span class="input-group-addon primary"><span class="fa fa-folder-open"></span></span>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="input-group" style="margin-top: 10px;">
+                  <input type="text" class="form-control">
+                  <span class="input-group-addon success"><span class="fa fa-check"></span></span>
+                </div>
+                <div class="input-group" style="margin-top: 10px;">
+                  <span class="input-group-addon info"><span class="fa fa-info"></span></span>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="input-group" style="margin-top: 10px;">
+                  <input type="text" class="form-control">
+                  <span class="input-group-addon warning"><span class="fa fa-warning"></span></span>
+                </div>
+                <div class="input-group" style="margin-top: 10px;">
+                  <span class="input-group-addon danger"><span class="fa fa-close"></span></span>
+                  <input type="text" class="form-control">
+                </div>
+                </div>
+
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#input-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="input-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Inputs-->
+
+      <!--Buttons-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="button">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Button Groups</code>&nbsp;</h4>
+              <p><small>Buttons for your site or app.</small></p>
+              <div class="btn-toolbar">
+                <h5 class="text-danger">Basic Buttons</h5>
+                <div style="margin-bottom: 15px !important;">
+                  <button class="btn btn-default">Default</button>
+                  <button class="btn btn-primary">Primary</button>
+                  <button class="btn btn-info">Info</button>
+                  <button class="btn btn-warning">Warning</button>
+                  <button class="btn btn-danger">Danger</button>
+                  <button class="btn btn-success">Success</button>
+                  <button class="btn btn-link">Link</button>
+                  <div style="margin-bottom: 15px !important; margin-top: 15px;">
+                    <h5 class="text-danger">Disable - Buttons</h5>
+                    <button disabled="" class="btn btn-default">Default</button>
+                    <button disabled="" class="btn btn-primary">Primary</button>
+                    <button disabled="" class="btn btn-info">Info</button>
+                    <button disabled="" class="btn btn-warning">Warning</button>
+                    <button disabled="" class="btn btn-danger">Danger</button>
+                    <button disabled="" class="btn btn-success">Success</button>
+                    <button disabled="" class="btn btn-link">Link</button>
+                  </div>
+                  <div style="margin-bottom: 15px !important; margin-top: 15px;">
+                    <h5 class="text-danger">Button With labels</h5>
+                    <button type="button" class="btn btn-default btn-lg"><span><i class="fa fa-arrow-left"></i></span> Default</button>
+                    <button type="button" class="btn btn-primary btn-lg">Primary <span><i class="fa fa-arrow-right"></i></span></button>
+                    <button type="button" class="btn btn-success btn-lg"><span><i class="fa fa-check"></i></span> Success</button>
+                    <button type="button" class="btn btn-info btn-lg"><span><i class="fa fa-info-circle"></i></span> Info</button>
+                    <button type="button" class="btn btn-warning btn-lg"><span><i class="fa fa-exclamation-triangle"></i></span> Warning</button>
+                    <button type="button" class="btn btn-danger btn-lg"><span><i class="fa fa-times"></i></span> Danger</button>
+                  </div>
+                  <div style="margin-bottom: 15px !important; margin-top: 15px;">
+                    <h5 class="text-danger">Buttons Size</h5>
+                    <button class="btn btn-lg btn-primary">Large</button>
+                    <button class="btn btn-primary">Medium</button>
+                    <button class="btn btn-sm btn-primary">Small</button>
+                    <button class="btn btn-xs btn-primary">Extra Small</button>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div style="margin-bottom: 15px !important; margin-top: 15px;">
+                        <h5 class="text-danger">Block Button</h5> <a href="#" class="btn btn-default btn-lg btn-block">Block level button</a> </div>
+                      <div style="margin-bottom: 15px !important; margin-top: 15px;">
+                        <h5 class="text-danger">Button Group Justified</h5>
+                        <div class="btn-group btn-group-justified" data-toggle="button"> <a href="#" class="btn btn-default">Left</a> <a href="#" class="btn btn-default active">Middle</a> <a href="#" class="btn btn-default">Right</a> </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div style="margin-bottom: 15px !important; margin-top: 15px;">
+                        <h5 class="text-danger">Vertical Button</h5>
+                        <div class="btn-group-vertical"> <a href="#" class="btn btn-default">Button</a> <a href="#" class="btn btn-default">Button</a>
+                          <div class="btn-group">
+                            <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true"> Dropdown <span class="caret"></span> </button>
+                              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                            <div class="dropup">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true"> Dropdown <span class="caret"></span> </button>
+                              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#btn-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="btn-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+            <!--Basic Buttons-->
+        <button class="btn btn-default">Default</button>
+	    <button class="btn btn-primary">Primary</button>
+	    <button class="btn btn-info">Info</button>
+	    <button class="btn btn-warning">Warning</button>
+	    <button class="btn btn-danger">Danger</button>
+	    <button class="btn btn-success">Success</button>
+	    <button class="btn btn-link">Link</button>
+            <!--Disable Buttons-->
+        <button disabled="" class="btn btn-default">Default</button>
+        <button disabled="" class="btn btn-primary">Primary</button>
+        <button disabled="" class="btn btn-info">Info</button>
+        <button disabled="" class="btn btn-warning">Warning</button>
+        <button disabled="" class="btn btn-danger">Danger</button>
+        <button disabled="" class="btn btn-success">Success</button>
+        <button disabled="" class="btn btn-link">Link</button>
+            <!--Buttons Size-->
+        <button class="btn btn-lg btn-primary">Large</button>
+        <button class="btn btn-primary">Medium</button>
+        <button class="btn btn-sm btn-primary">Small</button>
+        <button class="btn btn-xs btn-primary">Extra Small</button>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!--End Buttons-->
+
+  <!--Social Buttons-->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h3 class="panel-title" id="social">Example</h3>
+          <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Social Buttons</code>&nbsp;</h4>
+          <p><small><kbd>Social Buttons</kbd> made in pure <code class="danger">CSS</code> based on Bootstrap and Font Awesome!</small></p>
+          <div class="row">
+            <div class="col-md-4">
+              <a class="btn btn-block btn-social btn-bitbucket"> <i class="fa fa-bitbucket"></i> Sign in with Bitbucket </a>
+              <a class="btn btn-block btn-social btn-dropbox"> <i class="fa fa-dropbox"></i> Sign in with Dropbox </a>
+              <a class="btn btn-block btn-social btn-facebook"> <i class="fa fa-facebook"></i> Sign in with Facebook </a>
+            </div>
+            <div class="col-md-4">
+              <a class="btn btn-block btn-social btn-foursquare"> <i class="fa fa-foursquare"></i> Sign in with Foursquare </a>
+              <a class="btn btn-block btn-social btn-paypal"> <i class="fa fa-paypal"></i> Sign in with Paypal </a>
+              <a class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i> Sign in with Twitter </a>
+            </div>
+            <div class="col-md-4">
+              <a class="btn btn-block btn-social btn-soundcloud"> <i class="fa fa-soundcloud"></i> Sign in with Soundcloud </a>
+              <a class="btn btn-block btn-social btn-yahoo"> <i class="fa fa-yahoo"></i> Sign in with Yahoo </a>
+              <a class="btn btn-block btn-social btn-github"> <i class="fa fa-github"></i> Sign in with Github </a>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-12">
+            <a class="btn btn-social-icon btn-rss" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a>
+            <a class="btn btn-social-icon btn-bitbucket" data-toggle="tooltip" title="Bitbucket"><i class="fa fa-bitbucket"></i></a>
+            <a class="btn btn-social-icon btn-dropbox" data-toggle="tooltip" title="Dropbox"><i class="fa fa-dropbox"></i></a>
+            <a class="btn btn-social-icon btn-facebook" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-flickr" data-toggle="tooltip" title="Flicker"><i class="fa fa-flickr"></i></a>
+            <a class="btn btn-social-icon btn-foursquare" data-toggle="tooltip" title="Foursquare"><i class="fa fa-foursquare"></i></a>
+            <a class="btn btn-social-icon btn-github" data-toggle="tooltip" title="Github"><i class="fa fa-github"></i></a>
+            <a class="btn btn-social-icon btn-google-plus" data-toggle="tooltip" title="Google-Plus"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-social-icon btn-instagram" data-toggle="tooltip" title="Instagram"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-social-icon btn-linkedin" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-paypal" data-toggle="tooltip" title="Paypal"><i class="fa fa-paypal"></i></a>
+            <a class="btn btn-social-icon btn-openid" data-toggle="tooltip" title="OpenId"><i class="fa fa-openid"></i></a>
+            <a class="btn btn-social-icon btn-pinterest"data-toggle="tooltip" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+            <a class="btn btn-social-icon btn-reddit" data-toggle="tooltip" title="Reddit"><i class="fa fa-reddit"></i></a>
+            <a class="btn btn-social-icon btn-soundcloud" data-toggle="tooltip" title="Soundcloud"><i class="fa fa-soundcloud"></i></a>
+            <a class="btn btn-social-icon btn-tumblr" data-toggle="tooltip" title="Tumblr"><i class="fa fa-tumblr"></i></a>
+            <a class="btn btn-social-icon btn-twitter" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-vimeo" data-toggle="tooltip" title="Vimeo"><i class="fa fa-vimeo-square"></i></a>
+            <a class="btn btn-social-icon btn-vk" data-toggle="tooltip" title="Vk"><i class="fa fa-vk"></i></a>
+            <a class="btn btn-social-icon btn-yahoo" data-toggle="tooltip" title="Yahoo"><i class="fa fa-yahoo"></i></a>
+            <a class="btn btn-social-icon btn-youtube" data-toggle="tooltip" title="Youtube"><i class="fa fa-youtube"></i></a>
+            <a class="btn btn-social-icon btn-android" data-toggle="tooltip" title="Android"><i class="fa fa-android"></i></a>
+            <a class="btn btn-social-icon btn-whatsapp" data-toggle="tooltip" title="Whatsapp"><i class="fa fa-whatsapp"></i></a>
+            <a class="btn btn-social-icon btn-wordpress" data-toggle="tooltip" title="Wordpress"><i class="fa fa-wordpress"></i></a>
+          </div>
+            </div>
+          <hr>
+          <div class="text-center">
+            <a class="btn btn-social-icon btn-lg btn-stack-overflow" data-toggle="tooltip" title="Stackoverflow-lg"><i class="fa fa-stack-overflow"></i></a>
+            <a class="btn btn-social-icon btn-stack-overflow" data-toggle="tooltip" title="Stackoverflow-normal"><i class="fa fa-stack-overflow"></i></a>
+            <a class="btn btn-social-icon btn-sm btn-stack-overflow" data-toggle="tooltip" title="Stackoverflow-sm"><i class="fa fa-stack-overflow"></i></a>
+            <a class="btn btn-social-icon btn-xs btn-stack-overflow" data-toggle="tooltip" title="Stackoverflow-xs"><i class="fa fa-stack-overflow"></i></a>
+          </div>
+        </div>
+        <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#social-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+        <div class="collapse out" id="social-coll" style="margin-bottom: 14px;">
+          <div class="panel-footer" style="padding: 0;">
+            <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  <!--End Social Buttons-->
+      <!--Helper-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="helper">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Helper Classes</code>&nbsp;</h4>
+              <p><small>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</small></p>
+              <div class="row">
+                <div class="col-md-6">
+                  <h4 class="text-danger">Contextual Colors</h4>
+                <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+                <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+                <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-danger">Contextual Backgrounds</h4>
+                  <p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <p class="bg-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p class="bg-info"> Ut ultrices lorem urna, sit amet varius turpis ultricies et.</p>
+                  <p class="bg-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+                  <p class="bg-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#jumbotron-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="jumbotron-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Helper-->
+    </div>
+</div>
+  </div>
+
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="text-left">Made By <a href="mailto:digifreax1@gmail.com">Naveen Kumar</a> &copy; 2015.
+          <br>Code released under the <a href>Commercial License</a>.</br>
+          Based on <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" target="_blank">Google</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="source-modal" class="modal fade">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Source Code</h4> </div>
+      <div class="modal-body"> <pre><code class="html"></code></pre> </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.5.2/holder.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script>
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
+<script src="https://cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.4/typeahead.bundle.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    $('#example').DataTable();
+  });
+</script>
+<script type="text/javascript">
+  SyntaxHighlighter.all();
+</script>
+<script src="js/demo.js"></script>
+</body>
+</html>

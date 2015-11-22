@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>Gradience - By Digifreax-Studio</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreDefault.min.css" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet"> </head>
+  <body>
+    <!-- PAGE-NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar-top" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href class="navbar-brand"><i class="fa fa-fw fa-desktop"></i></a> </div>
+        <div id="navbar-top"
+        class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">Preview</a></li>
+            <li><a href="more-components.html">More Components</a> </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="installation.html">Installation</a></li>
+            <li><a href="http://getbootstrap.com/components" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin.">Documentation</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3><b>Overview</b></h3>
+          <hr>
+          <p> Gradience UI is a latest Bootstrap flat Skin with more cool elemens that bootstrap make it more beatiful and easy to edit and use. :) </p>
+        </div>
+      </div>
+      <div class="row">
+        <div role="main" class="col-md-12">
+          <div id="download">
+            <div class="row">
+              <div class="col-xs-12">
+                <h3><b>Download</b></h3>
+                <hr>
+                <p>First you go to purchase & download <a href="http://www.codecanyon.net/user/digifreax/portfolio">Gradience</a> from <a href="http://www.codecanyon.net">CodeCanyon</a>.</p>
+              </div>
+            </div>
+          </div>
+          <div id="integration">
+            <div class="row">
+              <div class="col-xs-12">
+                <h3><b>Integration</b></h3>
+                <hr>
+                <p>Gradience UI integration replacing or adding the <code>bootstrap.css</code> inside the <kbd>head</kbd> tag.</p> <pre class="brush: xml, highlight: [4], title: Example">
+                &lt;html&gt;
+                  &lt;head&gt;
+                    &lt;!-- Gradience stylesheet from package //--&gt;
+                    &lt;link href="css/bootstrap.css" rel="stylesheet"&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;
+                    &lt;div class="Container"&gt;
+                      &lt;!-- Your Content Here --&gt;
+                    &lt;/div&gt;
+                  &lt;/body&gt;
+                &lt;/html&gt;
+              </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3><b>Contextual Dropdown</b></h3>
+          <hr>
+          <p>If you have ever wanted that your dropdown cloud also have different contextual states just like the buttons in bootstrap then now you can! have a look at the example below.</p>
+          <p>Use this code <code>.dropdown-menu</code> with <code class="code-default">.dropdown-default</code>, <code class="code-primary">.dropdown-primary</code>, <code class="code-success">.dropdown-success</code>, <code class="code-info">.dropdown-info</code>,
+            <code class="code-danger">.dropdown-danger</code> & <code class="code-warning">.dropdown-warning</code> </p>
+          <div style="margin-bottom: 15px;" class="btn-toolbar">
+            <div role="group" class="btn-group dropdown">
+              <button type="button" class="btn btn-default">Default</button>
+              <button type="button" data-toggle="dropdown" aria-expanded="false" class="btn btn-default dropdown-toggle"><i class="fa fa-fw fa-caret-down"></i></button>
+              <ul role="menu" aria-labelledby="dd-default" class="dropdown-menu dropdown-default">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Something else here</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Separated link</a></li>
+              </ul>
+            </div>
+            <div role="group" class="btn-group dropdown">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" id="dd-primary" data-toggle="dropdown" aria-expanded="false" class="btn btn-primary dropdown-toggle"><i class="fa fa-fw fa-caret-down"></i></button>
+              <ul role="menu" aria-labelledby="dd-primary" class="dropdown-menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Something else here</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Separated link</a></li>
+              </ul>
+            </div>
+            <div role="group" class="btn-group dropdown">
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" data-toggle="dropdown" id="dd-info" aria-expanded="false" class="btn btn-info dropdown-toggle"><i class="fa fa-fw fa-caret-down"></i></button>
+              <ul role="menu" aria-labelledby="dd-info" class="dropdown-menu dropdown-info">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Something else here</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Separated link</a></li>
+              </ul>
+            </div>
+            <div role="group" class="btn-group dropdown">
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" id="dd-warning" data-toggle="dropdown" aria-expanded="false" class="btn btn-warning dropdown-toggle"><i class="fa fa-fw fa-caret-down"></i></button>
+              <ul role="menu" aria-labelledby="dd-warning" class="dropdown-menu dropdown-warning">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Something else here</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Separated link</a></li>
+              </ul>
+            </div>
+            <div role="group" class="btn-group dropdown">
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" id="dd-danger" data-toggle="dropdown" aria-expanded="false" class="btn btn-danger dropdown-toggle"><i class="fa fa-fw fa-caret-down"></i></button>
+              <ul role="menu" aria-labelledby="dd-danger" class="dropdown-menu dropdown-danger">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Something else here</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Separated link</a></li>
+              </ul>
+            </div>
+            <div role="group" class="btn-group dropdown">
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" id="dd-success" data-toggle="dropdown" aria-expanded="false" class="btn btn-success dropdown-toggle"><i class="fa fa-fw fa-caret-down"></i></button>
+              <ul role="menu" aria-labelledby="dd-success" class="dropdown-menu dropdown-success">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Something else here</a></li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href>Separated link</a></li>
+              </ul>
+            </div>
+          </div> <pre class="brush: xml, highlight: [7], title: Example">
+        &lt;!-- Gradience Danger Contextual Dropdown //--&gt;
+        &lt;div class="dropdown"&gt;
+          &lt;button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"&gt;
+            Danger
+            &lt;i class="fa fa-fw fa-caret-down"&gt;&lt;/i&gt;
+          &lt;/button&gt;
+          &lt;ul class="dropdown-menu dropdown-danger" role="menu"&gt;
+            &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href&gt;Action&lt;/a&gt;&lt;/li&gt;
+            &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href&gt;Another action&lt;/a&gt;&lt;/li&gt;
+            &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li role="presentation"&gt;&lt;a role="menuitem" tabindex="-1" href&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      </pre> </div>
+      </div>
+    </div>
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="text-right">Digifreax-Studio &copy; 2015. All rights reserved.
+              <br><a href="mailto:digifreax1@gmail.com"> By Naveen Kumar</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script>
+    <script type="text/javascript">
+      SyntaxHighlighter.all();
+    </script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Gradience - By Digifreax-Studio</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCoreDefault.min.css" />
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/demo.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<!-- PAGE-NAVBAR -->
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#navbar-top" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar"> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <a href class="navbar-brand">Gradience</a> </div>
+    <div id="navbar-top" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a href="components.html">Components</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="installation.html">Installation</a></li>
+        <li><a href="http://getbootstrap.com/components" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin.">Documentation</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Container -->
+<div class="container">
+  <div class="row">
+    <!--left-->
+    <div class="col-md-3" id="leftCol">
+      <div id="sidebar">
+        <ul class="nav nav-pills nav-stacked hidden-sm hidden-xs" id="nav-affix">
+          <li class="active"><a href="#dropdown">Contextual Dropdown</a></li>
+          <li><a href="#pagination">Pagination</a></li>
+          <li><a href="#jumbotron">Jumbotron</a></li>
+          <li><a href="#breadcrumbs">Breadcrumbs</a></li>
+          <li><a href="#navbar">Navbar</a></li>
+          <li><a href="#progress">Progress Bar</a></li>
+          <li><a href="#labels">Labels</a></li>
+          <li><a href="#badges">Badges</a></li>
+          <li><a href="#thumbnails">Thumbnails with Captions</a></li>
+          <li><a href="#list">List Group</a></li>
+          <li><a href="#panels">Panels</a></li>
+          <li><a href="#pills">Pills</a></li>
+          <li><a href="#media">Media Object</a></li>
+          <li><a href="#video">Responsive embed</a></li>
+          <li><a href="#wells">Wells</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--/left-->
+    <!--right-->
+    <div class="col-md-9">
+      <div class="jumbotron">
+        <h1>Gradience</h1>
+        <p>Modern skin built with latest bootstrap for all web-design and development projects.</p>
+        <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+      </div>
+
+      <!-- Contextual Dropdown -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body" style="min-height: 710px;">
+              <h3 class="panel-title" id="dropdown">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Contextual Dropdown</code>&nbsp;</h4>
+              <p><small>If you have ever wanted that your dropdown cloud also have different contextual states just like the buttons in bootstrap then now you can! have a look at the example below.</small></p>
+              <p><small>Use this <kbd>code</kbd> <code>.dropdown-menu</code> with <code class="code-default">.dropdown-default</code>, <code class="code-primary">.dropdown-primary</code>, <code class="code-success">.dropdown-success</code>, <code class="code-info">.dropdown-info</code>, <code class="code-danger">.dropdown-danger</code> &amp; <code class="code-warning">.dropdown-warning</code> </small></p>
+              <div class="row dt-example-dd">
+                <div class="col-lg-4">
+                  <!-- Example-->
+                  <div class="dropdown clearfix">
+                    <div class="dd-example">
+                      <button class="btn dropdown-toggle sr-only" type="button" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-primary">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="active"><a href="#"><i class="fa fa-database"></i> Separated link</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="dropdown clearfix">
+                    <div class="dd-example">
+                      <button class="btn dropdown-toggle sr-only" type="button" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-success">
+                        <li role="presentation" class="dropdown-header">Dropdown header</li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-download"></i> Another action</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">Dropdown header</li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="dropdown clearfix">
+                    <div class="dd-example">
+                      <button class="btn dropdown-toggle sr-only" type="button" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-info">
+                        <li><a href="#">Action</a></li>
+                        <li class="disabled"><a href="#">Disabled link</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li class="active"><a href="#"><i class="fa fa-server"></i> Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                  </div>
+                  </div>
+                  <!-- End Example -->
+                </div>
+              </div>
+
+              <h4><code class="code-info">Single Button Dropdown</code>&nbsp;</h4>
+              <p><small>Turn a button into a dropdown toggle with some basic markup changes.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-1">
+                  <!-- Single button dropdown -->
+                  <div role="group" class="btn-group"> <a href="#" class="btn btn-default dropdown dropdown-toggle" data-toggle="dropdown">Default<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div role="group" class="btn-group dropdown"> <a href="#" class="btn btn-primary dropdown dropdown-toggle" data-toggle="dropdown">Primary<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul class="dropdown-menu dropdown-primary">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div role="group" class="btn-group dropdown"> <a href="#" class="btn btn-success dropdown dropdown-toggle" data-toggle="dropdown">Success<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul class="dropdown-menu dropdown-success">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div role="group" class="btn-group dropdown"> <a href="#" class="btn btn-info dropdown dropdown-toggle" data-toggle="dropdown">Info<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul class="dropdown-menu dropdown-info">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div role="group" class="btn-group dropdown"> <a href="#" class="btn btn-warning dropdown dropdown-toggle" data-toggle="dropdown">Warning<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul class="dropdown-menu dropdown-warning">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div role="group" class="btn-group dropdown"> <a href="#" class="btn btn-danger dropdown dropdown-toggle" data-toggle="dropdown">Danger<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul class="dropdown-menu dropdown-danger">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <!-- End single button dropdown -->
+                </div>
+              </div>
+
+              <h4><code class="code-info">Split Button Dropdowns</code>&nbsp;</h4>
+              <p><small>Similarly, create split button dropdowns with the same markup changes, only with a separate button.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-1">
+                  <!-- Split Button Dropdowns -->
+                  <div class="btn-group"> <a href="#" class="btn btn-default">Default</a> <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group"> <a href="#" class="btn btn-primary">Primary</a> <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-primary">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group"> <a href="#" class="btn btn-success">Success</a> <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-success">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group"> <a href="#" class="btn btn-info">Info</a> <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-info">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group"> <a href="#" class="btn btn-warning">Warning</a> <a href="#" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-warning">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group"> <a href="#" class="btn btn-danger">Danger</a> <a href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-danger">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <!-- End Split Button Dropdowns -->
+                </div>
+              </div>
+
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#typography-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="typography-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3>
+                <pre class="brush: xml, title: 'Source Code'">
+  &lt;!--
+  // Headings
+  //--&gt;
+                  &lt;h1&gt;h1. Heading 1 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h1&gt;
+                  &lt;h2&gt;h2. Heading 2 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h2&gt;
+                  &lt;h3&gt;h3. Heading 3 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h3&gt;
+                  &lt;h4&gt;h4. Heading 4 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h4&gt;
+                  &lt;h5&gt;h5. Heading 5 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h5&gt;
+                  &lt;h6&gt;h6. Heading 6 &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h6&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Lead Body Copy
+  ///////////////////////////////////////////////////////////////
+                  &lt;p class="lead"&gt;...&lt;/p&gt;
+.
+  ///////////////////////////////////////////////////////////////
+  // Alignment classes
+  ///////////////////////////////////////////////////////////////
+                  &lt;p class="text-left"&gt;&lt;b&gt;Left aligned bold text.&lt;/b&gt;&lt;/p&gt;
+                  &lt;p class="text-center"&gt;&lt;i&gt;Center aligned Italic text.&lt;/i&gt;&lt;/p&gt;
+                  &lt;p class="text-right"&gt;&lt;small&gt;Right aligned small text.&lt;/small&gt;&lt;/p&gt;
+                  &lt;p class="text-justify"&gt;Justified text.&lt;/p&gt;
+                  &lt;p class="text-nowrap"&gt;No wrap text.&lt;/p&gt;
+
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contextual Dropdown -->
+
+      <!-- Pagination -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="pagination">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Pagination</code>&nbsp;</h4>
+              <p><small>Paginations are a great way to provide multi page navigation in your web-app thankfully, <strong>Gradience</strong> styles them to fit with the rest of your bootstrap design.</small></p>
+              <div class="btn-toolbar">
+                <h5 class="text-danger">Disabled and active states pagination</h5>
+                <ul class="pagination pagination-lg" style="margin: 0;">
+                  <li class="disabled">
+                    <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a>
+                  </li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li class="active"><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a>
+                  </li>
+                </ul>
+                <div class="">
+                  <h5 class="text-danger">Normal or Smaller pagination</h5>
+                  <ul class="pagination" style="margin: 0;">
+                    <li>
+                      <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a>
+                    </li>
+                    <li> <a>1</a> </li>
+                    <li> <a>2</a> </li>
+                    <li> <a>3</a> </li>
+                    <li class="active"> <a>4</a> </li>
+                    <li> <a>5</a> </li>
+                    <li>
+                      <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a>
+                    </li>
+                  </ul>
+                  <ul class="pagination pagination-sm" style="margin:0; margin-left: 10px;">
+                    <li>
+                      <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a>
+                    </li>
+                    <li> <a>1</a> </li>
+                    <li> <a>2</a> </li>
+                    <li> <a>3</a> </li>
+                    <li class="active"> <a>4</a> </li>
+                    <li> <a>5</a> </li>
+                    <li>
+                      <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="">
+                  <h5 class="text-danger">Pager</h5>
+                  <ul class="pager" style="margin: 0;">
+                    <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    <li class="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pagination-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="pagination-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+        <!--
+        Disabled and active states pagination
+        -->
+        <ul class="pagination pagination-lg">
+          <li class="disabled">
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li class="active"><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+        <!--
+        Normal or Smaller pagination
+        -->
+        <ul class="pagination pagination-lg">...</ul>
+        <ul class="pagination">...</ul>
+        <ul class="pagination pagination-sm">...</ul>
+        <!--
+        Pager
+        -->
+        <ul class="pager">
+          <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
+          <li class="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+        </ul>
+        </pre> </div>
+            </div>
+          </div>
+          </div>
+        </div>
+          <!-- End Pagination -->
+
+      <!-- Jumbotron -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="jumbotron">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Jumbotron</code>&nbsp;</h4>
+              <p><small><strong>Jumbotron</strong> a lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.</small></p>
+              <div class="jumbotron" style="margin-top: 10px; margin-bottom: 0;">
+                <h1>Jumbotron</h1>
+                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#jumbotron-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="jumbotron-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Jumbotron -->
+
+      <!-- Breadcrumbs -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="breadcrumbs">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Breadcrumbs</code>&nbsp;</h4>
+              <p><small><strong>Jumbotron</strong> a lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.</small></p>
+              <ul class="breadcrumb">
+                <li class="active">Home</li>
+              </ul>
+              <ul class="breadcrumb">
+                <li>Home</li>
+                <li class="active"><a href="#">Library</a></li>
+              </ul>
+              <ul class="breadcrumb">
+                <li>Home</li>
+                <li class="active"><a href="#">Library</a></li>
+                <li class="active"><a href="#">Database</a></li>
+              </ul>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#breadcrumbs-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="breadcrumbs-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Breadcrumbs -->
+
+      <!--Navbar-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body" style="min-height: 410px;">
+              <h3 class="panel-title" id="navbar">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Default Navbar with Animated “x” icon for the Bootstrap navbar-toggle</code>&nbsp;</h4>
+              <p><small><strong>Navbars</strong> are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.</small></p>
+              <!--Default Navbar-->
+              <div class="row">
+                <div class="col-xs-12">
+                  <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" data-toggle="collapse" data-target="#navbar-contained-default" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <a href class="navbar-brand">Gradience</a> </div>
+                      <div id="navbar-contained-default" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                          <li class="active"><a href><span class="fa fa-dashboard"></span> Dashboard</a></li>
+                        </ul>
+                        <div role="search" class="navbar-form navbar-left">
+
+                          <div class="input-group">
+                            <div class="input-group-btn search-panel">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span>Filter</span> <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                              <button class="btn btn-default" type="button"><i class="fa fa-fw fa-search hidden-xs"></i><span class="visible-xs">Search</span></button>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                              <span><i class="fa fw fa-user"></i></span> 
+                              digifreax <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <div class="navbar-login">
+                                  <div class="row">
+                                    <div class="col-lg-4">
+                                      <p class="text-center">
+                                        <span><i class="fa fa-user icon-size"></i></span>
+                                      </p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                      <p class="text-left"><strong>Naveen Kumar</strong></p>
+                                      <p class="text-left small">naveen@digifreax.in</p>
+                                      <p class="text-left">
+                                        <a href="#" class="btn btn-primary btn-block btn-sm">View Profile</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="divider"></li>
+                              <li>
+                                <div class="navbar-login navbar-login-logout">
+                                  <div class="row">
+                                    <div class="col-lg-12">
+                                      <p>
+                                        <a href="#" class="btn btn-danger btn-block">Logout</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <!--Inverse-Navbar-->
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Inverse Navbar with Animated “x” icon for the Bootstrap navbar-toggle</code>&nbsp;</h4>
+              <p><small>Modify the look of the navbar by adding <code class="code-primary">.navbar-inverse</code>.</small></p>
+              <div class="row">
+                <div class="col-xs-12">
+                  <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" data-toggle="collapse" data-target="#navbar-contained-inverse" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <a href class="navbar-brand">Gradience</a>                            </div>
+                      <div id="navbar-contained-inverse" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href><span class="fa fa-dashboard"></span> Dashboard</a></li>
+                          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-primary" role="menu">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#">Link</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="fa fa-search"></span></a>
+                            <ul style="min-width: 240px !important;" class="dropdown-menu dropdown-no-pad">
+                              <li>
+                                <form role="search">
+                                  <div class="input-group"> <span class="input-group-btn">
+                          <button type="button" class="btn btn-primary">
+                            <i class="fa fa-fw fa-search"></i>
+                          </button>
+                        </span>
+                                    <input type="text" placeholder="Search" class="form-control"> </div>
+                                </form>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#navbar-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="navbar-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+            <!--Basic Buttons-->
+        <button class="btn btn-default">Default</button>
+	    <button class="btn btn-primary">Primary</button>
+	    <button class="btn btn-info">Info</button>
+	    <button class="btn btn-warning">Warning</button>
+	    <button class="btn btn-danger">Danger</button>
+	    <button class="btn btn-success">Success</button>
+	    <button class="btn btn-link">Link</button>
+            <!--Disable Buttons-->
+        <button disabled="" class="btn btn-default">Default</button>
+        <button disabled="" class="btn btn-primary">Primary</button>
+        <button disabled="" class="btn btn-info">Info</button>
+        <button disabled="" class="btn btn-warning">Warning</button>
+        <button disabled="" class="btn btn-danger">Danger</button>
+        <button disabled="" class="btn btn-success">Success</button>
+        <button disabled="" class="btn btn-link">Link</button>
+            <!--Buttons Size-->
+        <button class="btn btn-lg btn-primary">Large</button>
+        <button class="btn btn-primary">Medium</button>
+        <button class="btn btn-sm btn-primary">Small</button>
+        <button class="btn btn-xs btn-primary">Extra Small</button>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Navbar-->
+
+      <!--Progress bars-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="progress">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Progress bars</code>&nbsp;</h4>
+              <p><small>Provide up-to-date feedback on the progress of a workflow or action with simple yet flexible progress bars.</small></p>
+
+              <code class="code-info" data-toggle="tooltip" title="" data-original-title="Bootstrap">Basic</code>
+              <div class="progress" style="margin-top: 8px;">
+                <div class="progress-bar" style="width: 60%;"></div>
+              </div>
+
+              <code class="code-info" data-toggle="tooltip" title="" data-original-title="Bootstrap">Contextual alternatives</code>
+              <div class="progress" style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" style="width: 80%"></div>
+              </div>
+
+              <code class="code-info" data-toggle="tooltip" title="" data-original-title="Bootstrap">Striped</code>
+              <div class="progress progress-striped" style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+              </div>
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+              </div>
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+              </div>
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-danger" style="width: 80%"></div>
+              </div>
+
+              <code class="code-info" data-toggle="tooltip" title="" data-original-title="Bootstrap">Animated</code>
+              <div class="progress progress-striped active"  style="margin-top: 8px;">
+                <div class="progress-bar" style="width: 45%"></div>
+              </div>
+              <div class="progress progress-striped active"  style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-success" style="width: 72%"></div>
+              </div>
+              <div class="progress progress-striped active"  style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-info" style="width: 65%"></div>
+              </div>
+              <div class="progress progress-striped active"  style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-warning" style="width: 52%"></div>
+              </div>
+              <div class="progress progress-striped active"  style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-danger" style="width: 82%"></div>
+              </div>
+
+              <code class="code-info" data-toggle="tooltip" title="" data-original-title="Bootstrap">Stacked</code>
+              <div class="progress" style="margin-top: 8px;">
+                <div class="progress-bar progress-bar-primary" style="width: 30%"></div>
+                <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                <div class="progress-bar progress-bar-info" style="width: 8%"></div>
+                <div class="progress-bar progress-bar-warning" style="width: 25%"></div>
+                <div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#progress-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="progress-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Progress bars-->
+
+      <!-- Labels -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="labels">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Labels</code>&nbsp;</h4>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-3">
+              <h1>Gradience heading <span class="label label-default">New</span></h1>
+              <h2>Gradience heading <span class="label label-primary">New</span></h2>
+              <h3>Gradience heading <span class="label label-success">New</span></h3>
+              <h4>Gradience heading <span class="label label-info">New</span></h4>
+              <h5>Gradience heading <span class="label label-warning">New</span></h5>
+              <h6>Gradience heading <span class="label label-danger">New</span></h6>
+                  </div>
+                </div>
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Default Variations</code>&nbsp;</h4>
+              <p><small>Add any of the below mentioned modifier classes to change the appearance of a label.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-3">
+                  <span class="label label-default">Default</span>
+                  <span class="label label-primary">Primary</span>
+                  <span class="label label-success">Success</span>
+                  <span class="label label-info">Info</span>
+                  <span class="label label-warning">Warning</span>
+                  <span class="label label-danger">Danger</span>
+                </div>
+              </div>
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Color Label</code>&nbsp;</h4>
+              <p><small>Add any of the below mentioned modifier classes to change the appearance of a label color.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-2">
+                  <span class="label label-Aqua">Aqua</span>
+                  <span class="label label-turquoise">Turquoise</span>
+                  <span class="label label-pink">Pink</span>
+                  <span class="label label-yellow">Yellow</span>
+                  <span class="label label-red">Red</span>
+                  <span class="label label-blue">Blue</span>
+                  <span class="label label-sea">Sea</span>
+                  <span class="label label-black">Black</span>
+                  <span class="label label-maroon">Maroon</span>
+                  <span class="label label-tan">Tan</span>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Labels-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="Labels-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Labels -->
+
+
+      <!-- Badges -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="badges">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Badges</code>&nbsp;</h4>
+              <p><small>A responsive product offer badges with hover effect.</small></p>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="offer offer-default">
+                    <div class="shape">
+                      <div class="shape-text">
+                        Top
+                      </div>
+                    </div>
+                    <div class="offer-content">
+                      <h3 class="lead">
+                        Default offer
+                      </h3>
+                      <p>
+                        Offer description.
+                      </p>
+                    </div>
+                </div>
+              </div>
+
+                <div class="col-md-4">
+                  <div class="offer offer-primary">
+                    <div class="shape">
+                      <div class="shape-text">
+                        Top
+                      </div>
+                    </div>
+                    <div class="offer-content">
+                      <h3 class="lead">
+                        Primary offer
+                      </h3>
+                      <p>
+                        offer description.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="offer offer-success">
+                    <div class="shape">
+                      <div class="shape-text">
+                        Top
+                      </div>
+                    </div>
+                    <div class="offer-content">
+                      <h3 class="lead">
+                        Success offer
+                      </h3>
+                      <p>
+                        offer description.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="offer offer-info">
+                    <div class="shape">
+                      <div class="shape-text">
+                        Top
+                      </div>
+                    </div>
+                    <div class="offer-content">
+                      <h3 class="lead">
+                        Info offer
+                      </h3>
+                      <p>
+                        offer description.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="offer offer-warning">
+                    <div class="shape">
+                      <div class="shape-text">
+                        Top
+                      </div>
+                    </div>
+                    <div class="offer-content">
+                      <h3 class="lead">
+                        Warning offer
+                      </h3>
+                      <p>
+                        offer description.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="offer offer-danger">
+                    <div class="shape">
+                      <div class="shape-text">
+                        Top
+                      </div>
+                    </div>
+                    <div class="offer-content">
+                      <h3 class="lead">
+                        Danger offer
+                      </h3>
+                      <p>
+                        offer description.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Basic badge</code>&nbsp;</h4>
+              <p><small>Easily highlight new or unread items by adding a <code>&lt;span class="badge"&gt;</code> to links, Bootstrap navs, and more.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-3">
+                  <a href="#" style="text-decoration: none">Inbox <span class="badge">42</span></a>
+                  </div>
+              </div>
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Adapts to active nav states</code>&nbsp;</h4>
+              <p><small>Built-in styles are included for placing badges in active states in pill navigations.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-3">
+                  <ul class="nav nav-pills">
+                    <li class="active"><a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge">8</span></a></li>
+                    <li><a href="#"><i class="fa fa-send"></i> Sent <span class="badge badge-success">18</span></a></li>
+                    <li><a href="#"><i class="fa fa-inbox"></i> Archive <span class="badge badge-info">440</span></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Contextual Badges</code>&nbsp;</h4>
+              <p><small>If you have ever wanted that your badges cloud also have different contextual states just like the buttons in bootstrap then now you can! have a look at the example below.</small></p>
+              <div class="row">
+                <div class="col-md-12 col-md-offset-3">
+                  <ul class="nav nav-pills">
+                    <span class="badge">default</span>
+                    <span class="badge badge-primary">Primary</span>
+                    <span class="badge badge-success">Success</span>
+                    <span class="badge badge-info">Info</span>
+                    <span class="badge badge-warning">Warning</span>
+                    <span class="badge badge-danger">Danger</span>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#badges-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="badges-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Badges -->
+
+
+      <!-- Thumbnails with Captions -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="thumbnails">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Thumbnails with Captions</code>&nbsp;</h4>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <a href="#" class="thumbnail"><img src="http://placehold.it/640x480" alt=""></a>
+                    </div>
+                    <div class="col-xs-6"><a href="#" class="thumbnail">
+                      <img src="http://placehold.it/640x480" alt=""></a>
+                    </div>
+                    <div class="col-xs-6"><a href="#" class="thumbnail">
+                      <img src="http://placehold.it/640x480" alt=""></a>
+                    </div>
+                    <div class="col-xs-6"><a href="#" class="thumbnail">
+                      <img src="http://placehold.it/640x480" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <img src="http://placehold.it/800x430" alt="">
+                    <div class="author">
+                      By <b>Naveen Kumar</b> |
+                      <time datetime="2015-05-01">May 1st, 2015</time>
+                    </div>
+                    <div class="caption">
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                      <p><a type="button" class="btn btn-primary">Button</a>&nbsp;<a type="button" class="btn btn-default">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#thumbnails-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="thumbnails-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Thumbnails with Captions -->
+
+
+      <!-- List Group -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="list">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">List Group</code>&nbsp;</h4>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item active">Cras justo odio</a>
+                      <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                      <a href="#" class="list-group-item">Morbi leo risus</a>
+                    </div>
+                    <div class="list-group">
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading 1</h4>
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      </a>
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading 2</h4>
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      </a>
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading 3</h4>
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      </a>
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading 4</h4>
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge">12</span>
+                        <i class="fa fa-inbox"></i> Inbox
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge badge-primary">9</span>
+                        <i class="fa fa-pencil"></i> Draft
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge badge-success">6</span>
+                        <i class="fa fa-weixin"></i> Online
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge badge-info">22</span>
+                        <i class="fa fa-send"></i> Sent
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge badge-warning">112</span>
+                        <i class="fa fa-folder-o"></i> Folder
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge badge-danger">10</span>
+                        <i class="fa fa-trash-o"></i> Trash
+                      </li>
+                    </ul>
+                    <ul class="list-group">
+                      <li class="list-group-item list-group-item-primary">Morbi leo risus</li>
+                      <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+                      <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+                      <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+                      <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+                    </ul>
+                </div>
+              </div>
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#list-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="list-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End List Group -->
+
+      <!-- Panels-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="panels">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Panels</code>&nbsp;</h4>
+              <p><small>While not always necessary, sometimes you need to put your DOM in a box. For those situations, try the panel component.</small></p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="component">
+                    <div class="panel panel-default">
+                      <div class="panel-body"> Basic panel </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Panel heading</div>
+                      <div class="panel-body"> Panel content
+                        <br>&nbsp;
+                        <br>&nbsp; </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <p><small><code class="code-info">Panel Footer with FontAwesome Icons</code></small></p>
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Panel Heading</h3> </div>
+                    <div class="panel-body" id="anim-body">
+                      <h4>Panel Content</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="panel-footer">
+                      <span><i class="fa fa-refresh fa-spin fa-1x"></i></span>
+                      <span><i href="#" class="fa fa-pencil fa-1x"></i></span>
+                      <span><i href="#" class="fa fa-search fa-1x"></i></span>
+                      <span><i href="#" class="fa fa-cog fa-spin fa-1x"></i></span>
+                      <span><i href="#" id="anim-toggle1" class="fa fa-chevron-up fa-1x" data-toggle="tooltip" data-placement="top" title="" data-original-title="CLICK"> Footer</i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <p><small>Use this <kbd>Code</kbd> <code class="code-info">.panel-info</code></small></p>
+                  <div class="panel panel-info">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Panel Info</h3> </div>
+                    <div class="panel-body">
+                      <p>Panel content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <p><small>Use this <kbd>Code</kbd> <code class="code-success">.panel-success</code></small></p>
+                  <div class="panel panel-success">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Panel Success</h3> </div>
+                    <div class="panel-body">
+                      <p>Panel content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <p><small>Use this <kbd>Code</kbd> <code class="code-warning">.panel-warning</code></small></p>
+                  <div class="panel panel-warning">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Panel Warning</h3> </div>
+                    <div class="panel-body">
+                      <p>Panel content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <p><small>Use this <kbd>Code</kbd> <code class="code-danger">.panel-danger</code></small></p>
+                  <div class="panel panel-danger">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Panel Danger</h3> </div>
+                    <div class="panel-body">
+                      <p>Panel content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#panel-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="panel-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Panels -->
+
+      <!-- Pills -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body" style="min-height: 425px;">
+              <h3 class="panel-title" id="pills">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Pills</code>&nbsp;</h4>
+              <p><small>While not always necessary, sometimes you need to put your DOM in a box. For those situations, try the panel component.</small></p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <div class="" style="margin-bottom: 15px;">
+                    <ul class="nav nav-pills">
+                      <li class="active"><a href="">Home</a></li>
+                      <li><a href="">Profile</a></li>
+                      <li class="disabled"><a href="">Disabled</a></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="" style="margin-bottom: 15px;">
+                    <ul class="nav nav-pills nav-stacked">
+                      <li class="active"><a href="">Home</a></li>
+                      <li><a href="">Profile</a></li>
+                      <li class="disabled"><a href="">Disabled</a></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div id="source-button" class="btn btn-primary btn-xs  btn-primary btn-source" style="display: none;"><i class="fa fa-fw fa-code"></i></div></div>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pills-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="pills-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Pills -->
+
+      <!-- Media Objects -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="media">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Media Objects</code>&nbsp;</h4>
+              <p><small>Abstract object styles for building various types of components (like blog comments, Tweets, etc) that feature a left- or right-aligned image alongside textual content.</small></p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Media heading</h4>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Media heading</h4>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">Nested media heading</h4>
+                          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-body">
+                      <h4 class="media-heading">Media heading</h4>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                    <div class="media-right">
+                      <a href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Media heading</h4>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                    <div class="media-right">
+                      <a href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image">
+                      </a>
+                    </div>
+                    <div id="source-button" class="btn btn-primary btn-xs  btn-primary btn-source" style="display: none;"><i class="fa fa-fw fa-code"></i></div></div>
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#media-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="media-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Media Objects -->
+
+
+      <!-- Responsive embed -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="video">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Responsive embed</code>&nbsp;</h4>
+              <p><small>Allow browsers to determine video or slideshow dimensions based on the width of their containing block by creating an intrinsic ratio that will properly scale on any device.</small></p>
+              <p><small>Rules are directly applied to <code>&lt;iframe&gt;</code>, <code>&lt;embed&gt;</code>, <code>&lt;video&gt;</code>, and <code>&lt;object&gt;</code> elements; optionally use an explicit descendant class <code>.embed-responsive-item</code> when you want to match the styling for other attributes.</small></p>
+              <p><small><strong>Pro-Tip!</strong> You don't need to include <code>frameborder="0"</code> in your <code>&lt;iframe&gt;</code>s as we override that for you.</small></p>
+              <div class="row">
+
+                <div class="col-md-12">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 15px;">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="//player.vimeo.com/video/22428395"></iframe>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#media-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="media-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Responsive embed -->
+
+      <!-- Wells -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3 class="panel-title" id="wells">Example</h3>
+              <h4><code class="code-info" data-toggle="tooltip" title="Bootstrap">Wells</code>&nbsp;</h4>
+
+               <div class="row">
+                <div class="col-md-12">
+                  <h5 class="text-danger">Default well</h5>
+                  <p><small>Use the well as a simple effect on an element to give it an inset effect.</small></p>
+                  <div class="well">Look, I'm in a well!</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h5 class="text-danger">Optional Classes</h5>
+                  <p><small>Control padding and rounded corners with two optional modifier classes.</small></p>
+                  <h5><small>Large Well</small></h5>
+                  <div class="well well-lg">Look, I'm in a large well!</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h5><small>Small well</small></h5>
+                  <div class="well well-sm">Look, I'm in a small well!</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h5 class="text-danger">Contextual Wells</h5>
+                  <p class="text-right">Use this <kbd>code</kbd> <code class="code-primary">.well-primary</code></p>
+                  <div class="well well-primary">Look, I'm in a Primary well!</div>
+                  <p class="text-right">Use this <kbd>code</kbd> <code class="code-success">.well-success</code></p>
+                  <div class="well well-success">Look, I'm in a Success well!</div>
+                  <p class="text-right">Use this <kbd>code</kbd> <code class="code-info">.well-info</code></p>
+                  <div class="well well-info">Look, I'm in a Info well!</div>
+                  <p class="text-right">Use this <kbd>code</kbd> <code class="code-warning">.well-warning</code></p>
+                  <div class="well well-warning">Look, I'm in a Warning well!</div>
+                  <p class="text-right">Use this <kbd>code</kbd> <code class="code-danger">.well-danger</code></p>
+                  <div class="well well-danger">Look, I'm in a danger well!</div>
+                </div>
+              </div>
+
+            </div>
+            <button data-role="source-anim" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#wells-coll" style="margin-bottom: 14px;"> <i class="fa fa-fw fa-code source-icon"></i> <span class="source-text">View Source</span> </button>
+            <div class="collapse out" id="wells-coll" style="margin-bottom: 14px;">
+              <div class="panel-footer" style="padding: 0;">
+                <h3 class="panel-title" style="margin-left: 8px; margin-top: 14px;">How to use</h3> <pre class="brush: xml">
+             <div class="jumbotron">
+               <h1>Jumbotron</h1>
+               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <p><a href="http://getbootstrap.com/components" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="right" title="" data-original-title="Refer to bootstrap for detailed documentation on how to use this skin">Learn more</a></p>
+             </div>
+        </pre> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Wells -->
+
+
+      </div>
+  </div>
+    </div>
+
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="text-left">Made By <a href="mailto:digifreax1@gmail.com">Naveen Kumar</a> &copy; 2015.
+          <br>Code released under the <a href>Commercial License</a>.</br>
+          Based on <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" target="_blank">Google</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="source-modal" class="modal fade">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Source Code</h4> </div>
+      <div class="modal-body"> <pre><code class="html"></code></pre> </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.5.2/holder.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script>
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
+<script src="https://cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.4/typeahead.bundle.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    $('#example').DataTable();
+  });
+</script>
+<script type="text/javascript">
+  SyntaxHighlighter.all();
+</script>
+<script src="js/demo.js"></script>
+</body>
+</html>

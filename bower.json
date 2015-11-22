@@ -1,0 +1,8 @@
+{
+  "name": "gradience",
+  "devDependencies": {
+    "bootstrap": "~3.3.4",
+    "typeahead.js": "~0.10.5",
+    "typeahead.js-bootstrap3.less": "~0.2.3"
+  }
+}
