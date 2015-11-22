@@ -1,4 +1,4 @@
-# gradience
+# Gradience
 Free, open-source bootstrap theme for Bootstrap 3.
 
 To get started, first clone the repository from Github and run the following commond in: **Terminal**
